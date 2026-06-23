@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://cd7odmn3c0lm0"]
+
+[ext_resource type="Script" uid="uid://g1imvu6cyq6c" path="res://Card.gd" id="1_dd2wi"]
+
+[node name="Card_tscn" type="TextureButton" unique_id=816168073]
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("1_dd2wi")
