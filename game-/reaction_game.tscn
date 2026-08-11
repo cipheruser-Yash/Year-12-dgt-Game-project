@@ -272,14 +272,14 @@ offset_left = 24.0
 offset_top = 284.0
 offset_right = 412.0
 offset_bottom = 489.0
-text = "Click start to start the game.
-The lights will first turn red.
-Wait for the lights to go out (It will go from red to
+text = "-Click start to start the game.
+-The lights will first turn red.
+-Wait for the lights to go out (It will go from red to
  black).
-If clicked early you will have a
+-If clicked early you will have a
  jump start.
-You can tap anywhere once the
-liughts are out. "
+-You can tap anywhere once the
+lights are out. "
 
 [node name="StartBtn" type="Button" parent="." unique_id=594099833]
 offset_left = 422.0
