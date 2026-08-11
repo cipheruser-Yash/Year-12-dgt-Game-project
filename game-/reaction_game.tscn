@@ -1,0 +1,307 @@
+[gd_scene format=3 uid="uid://ba52lui8embqd"]
+
+[ext_resource type="Script" uid="uid://dj7sybpo4srw6" path="res://reaction_game.gd" id="1_c3a7i"]
+
+[node name="ReactionGame" type="Node2D" unique_id=1033418508]
+script = ExtResource("1_c3a7i")
+
+[node name="Control" type="Control" parent="." unique_id=444457386]
+layout_mode = 3
+anchors_preset = 0
+offset_left = 2.0
+offset_top = 2.0
+offset_right = 1181.0
+offset_bottom = 682.0
+
+[node name="Background" type="ColorRect" parent="." unique_id=242027600]
+offset_right = 1189.0
+offset_bottom = 715.0
+color = Color(0.21960784, 0.21960784, 0.21960784, 1)
+
+[node name="LightTimer" type="Timer" parent="." unique_id=1172305862]
+
+[node name="GoTimer" type="Timer" parent="." unique_id=570958084]
+one_shot = true
+
+[node name="Lights" type="HBoxContainer" parent="." unique_id=260861798]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 266.0
+offset_top = 12.0
+offset_right = 330.0
+offset_bottom = 69.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(10, 4)
+alignment = 1
+
+[node name="L1" type="ColorRect" parent="Lights" unique_id=1905847585]
+layout_mode = 2
+size_flags_horizontal = 3
+color = Color(1.1755697, 1.1755697, 1.1755697, 1)
+
+[node name="L2" type="ColorRect" parent="Lights" unique_id=1132823165]
+layout_mode = 2
+size_flags_horizontal = 3
+color = Color(1.1755697, 1.1755697, 1.1755697, 1)
+
+[node name="L3" type="ColorRect" parent="Lights" unique_id=428533832]
+layout_mode = 2
+size_flags_horizontal = 3
+color = Color(1.1755697, 1.1755697, 1.1755697, 1)
+
+[node name="L4" type="ColorRect" parent="Lights" unique_id=581469881]
+layout_mode = 2
+size_flags_horizontal = 3
+color = Color(1.1755697, 1.1755697, 1.1755697, 1)
+
+[node name="L5" type="ColorRect" parent="Lights" unique_id=1123245518]
+layout_mode = 2
+size_flags_horizontal = 3
+color = Color(1.1755697, 1.1755697, 1.1755697, 1)
+
+[node name="Bars" type="Label" parent="." unique_id=2105034686]
+offset_left = 8.0
+offset_top = -106.0
+offset_right = 48.0
+offset_bottom = -83.0
+
+[node name="Bar" type="ColorRect" parent="Bars" unique_id=819857164]
+layout_mode = 0
+offset_left = 258.0
+offset_top = 220.0
+offset_right = 348.0
+offset_bottom = 242.0
+color = Color(0.012617188, 0.012617188, 0.012617188, 1)
+
+[node name="Bar2" type="ColorRect" parent="Bars" unique_id=637893402]
+layout_mode = 0
+offset_left = 387.0
+offset_top = 221.0
+offset_right = 488.0
+offset_bottom = 243.0
+color = Color(0.012617188, 0.012617188, 0.012617188, 1)
+
+[node name="Bar3" type="ColorRect" parent="Bars" unique_id=1721614053]
+layout_mode = 0
+offset_left = 528.0
+offset_top = 220.0
+offset_right = 618.0
+offset_bottom = 242.0
+color = Color(0.012617188, 0.012617188, 0.012617188, 1)
+
+[node name="Bar4" type="ColorRect" parent="Bars" unique_id=802122058]
+layout_mode = 0
+offset_left = 657.0
+offset_top = 220.0
+offset_right = 758.0
+offset_bottom = 242.0
+color = Color(0.012617188, 0.012617188, 0.012617188, 1)
+
+[node name="Bar5" type="ColorRect" parent="Bars" unique_id=1408585992]
+layout_mode = 0
+offset_left = 797.0
+offset_top = 220.0
+offset_right = 899.0
+offset_bottom = 242.0
+color = Color(0.012617188, 0.012617188, 0.012617188, 1)
+
+[node name="Bar6" type="ColorRect" parent="Bars" unique_id=769551316]
+layout_mode = 0
+offset_left = 257.0
+offset_top = 332.0
+offset_right = 348.0
+offset_bottom = 347.0
+color = Color(0.012617188, 0.012617188, 0.012617188, 1)
+
+[node name="Bar7" type="ColorRect" parent="Bars" unique_id=290822277]
+layout_mode = 0
+offset_left = 336.0
+offset_top = 118.0
+offset_right = 349.0
+offset_bottom = 347.0
+color = Color(0.012617188, 0.012617188, 0.012617188, 1)
+
+[node name="Bar8" type="ColorRect" parent="Bars" unique_id=1669578364]
+layout_mode = 0
+offset_left = 256.0
+offset_top = 118.0
+offset_right = 269.0
+offset_bottom = 347.0
+color = Color(0.012617188, 0.012617188, 0.012617188, 1)
+
+[node name="Bar9" type="ColorRect" parent="Bars" unique_id=126691719]
+layout_mode = 0
+offset_left = 257.0
+offset_top = 115.0
+offset_right = 348.0
+offset_bottom = 130.0
+color = Color(0.012617188, 0.012617188, 0.012617188, 1)
+
+[node name="Bar10" type="ColorRect" parent="Bars" unique_id=1553317731]
+layout_mode = 0
+offset_left = 389.0
+offset_top = 334.0
+offset_right = 485.0
+offset_bottom = 349.0
+color = Color(0.012617188, 0.012617188, 0.012617188, 1)
+
+[node name="Bar11" type="ColorRect" parent="Bars" unique_id=1690946168]
+layout_mode = 0
+offset_left = 475.0
+offset_top = 118.0
+offset_right = 488.0
+offset_bottom = 347.0
+color = Color(0.012617188, 0.012617188, 0.012617188, 1)
+
+[node name="Bar12" type="ColorRect" parent="Bars" unique_id=1305669259]
+layout_mode = 0
+offset_left = 388.0
+offset_top = 118.0
+offset_right = 401.0
+offset_bottom = 349.0
+color = Color(0.012617188, 0.012617188, 0.012617188, 1)
+
+[node name="Bar13" type="ColorRect" parent="Bars" unique_id=1285369744]
+layout_mode = 0
+offset_left = 393.0
+offset_top = 115.0
+offset_right = 484.0
+offset_bottom = 130.0
+color = Color(0.012617188, 0.012617188, 0.012617188, 1)
+
+[node name="Bar14" type="ColorRect" parent="Bars" unique_id=1269577575]
+layout_mode = 0
+offset_left = 522.0
+offset_top = 335.0
+offset_right = 618.0
+offset_bottom = 350.0
+color = Color(0.012617188, 0.012617188, 0.012617188, 1)
+
+[node name="Bar15" type="ColorRect" parent="Bars" unique_id=393864533]
+layout_mode = 0
+offset_left = 608.0
+offset_top = 119.0
+offset_right = 621.0
+offset_bottom = 348.0
+color = Color(0.012617188, 0.012617188, 0.012617188, 1)
+
+[node name="Bar16" type="ColorRect" parent="Bars" unique_id=843034181]
+layout_mode = 0
+offset_left = 521.0
+offset_top = 119.0
+offset_right = 534.0
+offset_bottom = 350.0
+color = Color(0.012617188, 0.012617188, 0.012617188, 1)
+
+[node name="Bar17" type="ColorRect" parent="Bars" unique_id=1224502162]
+layout_mode = 0
+offset_left = 523.0
+offset_top = 116.0
+offset_right = 620.0
+offset_bottom = 131.0
+color = Color(0.012617188, 0.012617188, 0.012617188, 1)
+
+[node name="Bar18" type="ColorRect" parent="Bars" unique_id=744323010]
+layout_mode = 0
+offset_left = 799.0
+offset_top = 333.0
+offset_right = 895.0
+offset_bottom = 348.0
+color = Color(0.012617188, 0.012617188, 0.012617188, 1)
+
+[node name="Bar19" type="ColorRect" parent="Bars" unique_id=1754725153]
+layout_mode = 0
+offset_left = 885.0
+offset_top = 117.0
+offset_right = 898.0
+offset_bottom = 346.0
+color = Color(0.012617188, 0.012617188, 0.012617188, 1)
+
+[node name="Bar20" type="ColorRect" parent="Bars" unique_id=339075064]
+layout_mode = 0
+offset_left = 798.0
+offset_top = 117.0
+offset_right = 811.0
+offset_bottom = 348.0
+color = Color(0.012617188, 0.012617188, 0.012617188, 1)
+
+[node name="Bar21" type="ColorRect" parent="Bars" unique_id=1300225035]
+layout_mode = 0
+offset_left = 803.0
+offset_top = 114.0
+offset_right = 894.0
+offset_bottom = 129.0
+color = Color(0.012617188, 0.012617188, 0.012617188, 1)
+
+[node name="Bar22" type="ColorRect" parent="Bars" unique_id=419871820]
+layout_mode = 0
+offset_left = 660.0
+offset_top = 335.0
+offset_right = 756.0
+offset_bottom = 350.0
+color = Color(0.012617188, 0.012617188, 0.012617188, 1)
+
+[node name="Bar23" type="ColorRect" parent="Bars" unique_id=2094904419]
+layout_mode = 0
+offset_left = 746.0
+offset_top = 119.0
+offset_right = 759.0
+offset_bottom = 348.0
+color = Color(0.012617188, 0.012617188, 0.012617188, 1)
+
+[node name="Bar24" type="ColorRect" parent="Bars" unique_id=1695827667]
+layout_mode = 0
+offset_left = 656.0
+offset_top = 117.0
+offset_right = 669.0
+offset_bottom = 348.0
+color = Color(0.012617188, 0.012617188, 0.012617188, 1)
+
+[node name="Bar25" type="ColorRect" parent="Bars" unique_id=659201010]
+layout_mode = 0
+offset_left = 658.0
+offset_top = 116.0
+offset_right = 759.0
+offset_bottom = 131.0
+color = Color(0.012617188, 0.012617188, 0.012617188, 1)
+
+[node name="Info" type="Label" parent="." unique_id=955310708]
+offset_left = 24.0
+offset_top = 284.0
+offset_right = 412.0
+offset_bottom = 489.0
+text = "Click start to start the game.
+The lights will first turn red.
+Wait for the lights to go out (It will go from red to
+ black).
+If clicked early you will have a
+ jump start.
+You can tap anywhere once the
+liughts are out. "
+
+[node name="StartBtn" type="Button" parent="." unique_id=594099833]
+offset_left = 422.0
+offset_top = 386.0
+offset_right = 763.0
+offset_bottom = 507.0
+text = "Start button"
+
+[node name="Status" type="Label" parent="." unique_id=1155918609]
+offset_left = 407.0
+offset_top = 270.0
+offset_right = 766.0
+offset_bottom = 378.0
+size_flags_horizontal = 3
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="HomeButton" type="Button" parent="." unique_id=1801933321]
+offset_left = 814.0
+offset_top = 394.0
+offset_right = 1081.0
+offset_bottom = 501.0
+text = "Home Page."
+
+[connection signal="pressed" from="HomeButton" to="." method="_on_home_button_pressed"]

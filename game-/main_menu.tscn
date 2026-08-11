@@ -1,0 +1,56 @@
+[gd_scene format=3 uid="uid://bqfg5tsgyhekh"]
+
+[ext_resource type="Script" uid="uid://cwdtu3kd733ak" path="res://main_menu.gd" id="1_06t4h"]
+
+[node name="MainMenu" type="Node2D" unique_id=1392608911]
+script = ExtResource("1_06t4h")
+
+[node name="Control" type="Control" parent="." unique_id=206772379]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 1195.0
+offset_bottom = 689.0
+
+[node name="ColorRect" type="ColorRect" parent="Control" unique_id=1143569085]
+layout_mode = 0
+offset_right = 1176.0
+offset_bottom = 683.0
+color = Color(0.21960784, 0.21960784, 0.21960784, 1)
+
+[node name="PlayMemory" type="Button" parent="Control" unique_id=1601784298]
+layout_mode = 0
+offset_left = 456.0
+offset_top = 346.0
+offset_right = 776.0
+offset_bottom = 431.0
+text = "Memory game"
+
+[node name="PlayReaction" type="Button" parent="Control" unique_id=978202245]
+layout_mode = 0
+offset_left = 53.0
+offset_top = 344.0
+offset_right = 373.0
+offset_bottom = 429.0
+text = "Reaction game"
+
+[node name="Quit" type="Button" parent="Control" unique_id=1949119924]
+layout_mode = 0
+offset_left = 862.0
+offset_top = 346.0
+offset_right = 1112.0
+offset_bottom = 431.0
+text = "Quit"
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=1210527538]
+offset_top = 464.0
+offset_right = 1179.0
+offset_bottom = 677.0
+color = Color(0.101960786, 0, 0.101960786, 1)
+
+[node name="Label" type="Label" parent="." unique_id=1903257202]
+auto_translate_mode = 1
+offset_left = 1.0
+offset_top = 467.0
+offset_right = 1146.0
+offset_bottom = 641.0
+text = " hello "

@@ -10,5 +10,6 @@ config_version=5
 
 [application]
 
-run/main_scene="uid://cd7odmn3c0lm0"
+config/name="Memory card game"
+run/main_scene="uid://bqfg5tsgyhekh"
 config/features=PackedStringArray("4.6")
