@@ -269,13 +269,14 @@ color = Color(0.012617188, 0.012617188, 0.012617188, 1)
 
 [node name="Info" type="Label" parent="." unique_id=955310708]
 offset_left = 24.0
-offset_top = 284.0
+offset_top = 296.0
 offset_right = 412.0
-offset_bottom = 489.0
-text = "-Click start to start the game.
+offset_bottom = 527.0
+text = "Instructions: 
+-Click start to start the game.
 -The lights will first turn red.
--Wait for the lights to go out (It will go from red to
- black).
+-Wait for the lights to go out (It will go from 
+red to black).
 -If clicked early you will have a
  jump start.
 -You can tap anywhere once the

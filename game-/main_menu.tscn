@@ -1,6 +1,10 @@
 [gd_scene format=3 uid="uid://bqfg5tsgyhekh"]
 
 [ext_resource type="Script" uid="uid://cwdtu3kd733ak" path="res://main_menu.gd" id="1_06t4h"]
+[ext_resource type="Texture2D" uid="uid://d1ymodt1xa28x" path="res://racing-car-industrial-setting-formula-concrete-background-photoshoot-418902853.webp" id="2_7vrkn"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_06t4h"]
+load_path = "res://.godot/imported/F1 game logo.png-d806319f428205538c1561fd84a91505.ctex"
 
 [node name="MainMenu" type="Node2D" unique_id=1392608911]
 script = ExtResource("1_06t4h")
@@ -20,37 +24,59 @@ color = Color(0.21960784, 0.21960784, 0.21960784, 1)
 [node name="PlayMemory" type="Button" parent="Control" unique_id=1601784298]
 layout_mode = 0
 offset_left = 456.0
-offset_top = 346.0
+offset_top = 334.0
 offset_right = 776.0
-offset_bottom = 431.0
+offset_bottom = 419.0
 text = "Memory game"
 
 [node name="PlayReaction" type="Button" parent="Control" unique_id=978202245]
 layout_mode = 0
 offset_left = 53.0
-offset_top = 344.0
+offset_top = 332.0
 offset_right = 373.0
-offset_bottom = 429.0
+offset_bottom = 417.0
 text = "Reaction game"
 
 [node name="Quit" type="Button" parent="Control" unique_id=1949119924]
 layout_mode = 0
 offset_left = 862.0
-offset_top = 346.0
+offset_top = 334.0
 offset_right = 1112.0
-offset_bottom = 431.0
+offset_bottom = 419.0
 text = "Quit"
 
-[node name="ColorRect" type="ColorRect" parent="." unique_id=1210527538]
-offset_top = 464.0
-offset_right = 1179.0
-offset_bottom = 677.0
-color = Color(0.101960786, 0, 0.101960786, 1)
+[node name="F1GameLogo" type="Sprite2D" parent="." unique_id=753306216]
+position = Vector2(206.00002, 85.000046)
+scale = Vector2(0.16000001, 0.15812497)
+texture = SubResource("CompressedTexture2D_06t4h")
 
-[node name="Label" type="Label" parent="." unique_id=1903257202]
-auto_translate_mode = 1
-offset_left = 1.0
-offset_top = 467.0
-offset_right = 1146.0
-offset_bottom = 641.0
-text = " hello "
+[node name="Label" type="Label" parent="." unique_id=922173202]
+offset_left = 35.0
+offset_top = 70.0
+offset_right = 143.0
+offset_bottom = 102.0
+text = "Inspired by:"
+
+[node name="Label2" type="Label" parent="." unique_id=385812117]
+offset_left = 326.0
+offset_top = -29.0
+offset_right = 600.0
+offset_bottom = 77.0
+scale = Vector2(2, 2)
+text = "Reaction and Memory game. "
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Label3" type="Label" parent="." unique_id=1210859087]
+offset_left = 6.0
+offset_top = 489.0
+offset_right = 599.0
+offset_bottom = 564.0
+text = "Credits to: BronCG for guiding  in the creationg of memory game on youtube.
+                  : Formula one for the inspiration of reationg game and the theme. 
+                  : Feedback providers to improve  the quality."
+
+[node name="RacingCarIndustrialSettingFormulaConcreteBackgroundPhotoshoot418902853" type="Sprite2D" parent="." unique_id=980198324]
+position = Vector2(997, 101)
+scale = Vector2(0.32375014, 0.27345213)
+texture = ExtResource("2_7vrkn")
