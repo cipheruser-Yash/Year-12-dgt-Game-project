@@ -58,8 +58,6 @@ func _on_card_pressed(idx: int):
 func _check_done():
 	for c in cards: if not c.matched: return
 	done = true; timer.stop()
-	var iq = _calc_iq()
-	print("IQ: %d | Moves: %d | Time: %ds" % [iq, moves, seconds])
 	# show on screen — add a ResultLabel to your scene and set its text here
 
 func _calc_iq() -> int:
